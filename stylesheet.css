@@ -137,3 +137,7 @@ h2 {
 span.highlight {
   background-color: #ffffd0;
 }
+
+ul {
+  margin-left: -10px;
+}
