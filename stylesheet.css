@@ -301,6 +301,25 @@ footer p:last-child {
   text-align: right;
 }
 
+.visitor-counter {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  white-space: nowrap;
+}
+
+.visitor-counter .statcounter {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+}
+
+.visitor-counter .statcounter img {
+  display: block;
+  width: auto;
+  height: 0.9rem;
+}
+
 @media (max-width: 760px) {
   .page-shell {
     width: min(calc(100% - 32px), var(--max-width));
