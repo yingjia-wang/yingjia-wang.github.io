@@ -364,21 +364,24 @@ h3 {
 }
 
 footer {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 1.5rem;
   padding: 18px 0 28px;
   border-top: 1px solid var(--border);
   color: var(--muted);
   font-size: 0.84rem;
 }
 
+.footer-meta {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
 footer p {
   margin: 0;
 }
 
-footer p:last-child {
+.footer-meta p:last-child {
   text-align: right;
 }
 
@@ -405,7 +408,7 @@ footer p:last-child {
     gap: 0.08rem;
   }
 
-  footer {
+  .footer-meta {
     align-items: stretch;
     flex-direction: column;
     gap: 0.25rem;
